@@ -7,3 +7,10 @@ This table lists programming problems that appear under the same or similar stat
 | aplusb       | Codeforces (ACMSGURU), Timus                | Timus     |
 
 ---
+
+TODO:
+| Problem Name       | Directory                      |
+|--------------------|--------------------------------|
+| spreadsheets       | codeforces/main/b-spreadsheets |
+
+---
