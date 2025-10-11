@@ -3,6 +3,7 @@
 | Problem Name       | Directory                      |
 |--------------------|--------------------------------|
 | spreadsheets       | codeforces/main/b-spreadsheets |
+| team               | codeforces/main/231/a-team     |
 ---
 
 ## AIM: 
