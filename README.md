@@ -2,8 +2,7 @@
 
 | Problem Name       | Directory                      |
 |--------------------|--------------------------------|
-| spreadsheets       | codeforces/main/b-spreadsheets |
-| team               | codeforces/main/231/a-team     |
+|                    |                                |
 ---
 
 ## AIM: 
@@ -17,8 +16,7 @@ timus : 1199
 
 sum = 17573;
 - use prog.sh
-progress = 16 / 17573 * 100 <=> 0.091 % 
-
+progress = 19 / 17573 * 100 <=> 0.108 %
 ## Redundancies
 
 | Problem Name | Presence In                                 | Directory |
