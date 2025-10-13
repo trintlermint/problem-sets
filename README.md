@@ -2,7 +2,7 @@
 
 | Problem Name       | Directory                      |
 |--------------------|--------------------------------|
-|                    |                                |
+| matrix-dot-prod    |deep-ml/                         |
 ---
 
 ## AIM: 
@@ -16,7 +16,7 @@ timus : 1199
 
 sum = 17573;
 - use prog.sh
-progress = 19 / 17573 * 100 <=> 0.108 %
+progress = 23 / 17573 * 100 <=> 0.130 %
 ## Redundancies
 
 | Problem Name | Presence In                                 | Directory |
