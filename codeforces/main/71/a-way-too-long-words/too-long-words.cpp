@@ -1,3 +1,5 @@
+// #343214608 	Oct/12/2025 04:04UTC+2 	trintler 	71A - Way Too Long Words 	C++17 (GCC 7-32) 	Accepted 	46 ms 	0 KB
+
 #include <iostream>
 #include <string>
 #include <vector>

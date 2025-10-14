@@ -1,3 +1,5 @@
+// #343620541 	Oct/14/2025 02:38UTC+2 	trintler 	112A - Petya and Strings 	C++23 (GCC 14-64, msys2) 	Accepted 	154 ms 	100 KB
+
 #include <iostream>
 #include <string>
 using namespace std;

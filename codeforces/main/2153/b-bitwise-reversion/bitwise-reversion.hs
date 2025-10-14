@@ -1,4 +1,4 @@
-
+-- #342974531 	Oct/10/2025 17:28UTC+2 	trintler 	2153B - Bitwise Reversion 	Haskell 	Accepted 	218 ms 	0 KB
 import Data.Bits
 import Control.Monad
 import System.IO

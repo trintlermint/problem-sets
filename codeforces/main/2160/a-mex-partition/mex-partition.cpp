@@ -1,3 +1,5 @@
+// #343326256 	Oct/12/2025 16:54UTC+2 	trintler 	2160A - MEX Partition 	C++17 (GCC 7-32) 	Accepted 	61 ms 	0 KB
+
 #include <iostream>
 using namespace std;
 #include <vector>

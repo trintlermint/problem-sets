@@ -1,3 +1,5 @@
+// #343617410 	Oct/14/2025 00:59UTC+2 	trintler 	158A - Next Round 	C++23 (GCC 14-64, msys2) 	Accepted 	124 ms 	100 KB
+
 #include <iostream>
 #include <vector>
 

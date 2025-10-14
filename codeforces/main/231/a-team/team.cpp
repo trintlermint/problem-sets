@@ -1,3 +1,5 @@
+// #343615991 	Oct/14/2025 00:21UTC+2 	trintler 	231A - Team 	C++23 (GCC 14-64, msys2) 	Accepted 	92 ms 	0 KB
+
 #include <iostream>
 
 using namespace std;
