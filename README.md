@@ -6,7 +6,7 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 
 | Problem Name       | Directory                      |
 |--------------------|--------------------------------|
-|                    |                                |
+|  boryas diagnosis  | cf/main/879/a                  |
 ---
 
 ## AIM
@@ -26,7 +26,7 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 - **Total problems:** 18,114  
 - **Solved:** 32  
 - **Unsolved:** 18,082  
-- **Progress:** 32 / 18,114 × 100 ≈ 0.18%
+- **Progress:** 33 / 18,114 × 100 ≈ 0.188 %
 
 <sub>see also: <code>./prog.sh</code> for summary</sub>
 
@@ -34,7 +34,7 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 
 ```mermaid
 pie showData
-    "Solved" : 32
+    "Solved" : 33
     "Unsolved" : 18082
 ```
 
@@ -42,7 +42,7 @@ pie showData
 
 ```mermaid
 pie showData
-    "C++" : 20
+    "C++" : 21
     "Shell" : 3
     "Python" : 7
     "Haskell" : 3
