@@ -15,18 +15,19 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 
 | Platform      | Solutions |
 |---------------|-----------|
-| Codeforces    | 11,353    |
+| Codeforces    | 11,353-1  |
 | CSES          | 362       |
 | Project Euler | 954       |
 | LeetCode      | 3,716     |
 | Timus         | 1,199     |
 | Deep-ML       | 187       |
 | Perl Weekly Review | 343  |
+| SPOJ          | 42573     |
 
-- **Total problems:** 18,114  
-- **Solved:** 32  
-- **Unsolved:** 18,082  
-- **Progress:** 33 / 18,114 × 100 ≈ 0.188 %
+- **Total problems:** 60686 
+- **Solved:** 34
+- **Unsolved:** 60652
+- **Progress:** 34 / 60686) × 100 ≈ 0.0577 %
 
 <sub>see also: <code>./prog.sh</code> for summary</sub>
 
@@ -34,8 +35,8 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 
 ```mermaid
 pie showData
-    "Solved" : 33
-    "Unsolved" : 18082
+    "Solved" : 34
+    "Unsolved" : 60652
 ```
 
 ## Solution Languages used
