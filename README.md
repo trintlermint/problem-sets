@@ -9,43 +9,62 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 |                    |                                |
 ---
 
-## AIM: 
+## AIM
 
-as of 14/10/2025;
-cf : 10800 + 553
-cses : 362
-pe : 954
-lc : 3716
-timus : 1199
-dl : 187
-pwr : 343
+**As of 14/10/2025:**
 
-sum = 18114;
-- use prog.sh
-progress = 32 / 18114 × 100 ≈ 0.1766589378 %
+| Platform      | Solutions |
+|---------------|-----------|
+| Codeforces    | 11,353    |
+| CSES          | 362       |
+| Project Euler | 954       |
+| LeetCode      | 3,716     |
+| Timus         | 1,199     |
+| Deep-ML       | 187       |
+| Perl Weekly Review | 343  |
 
-```mermaid
-pie showData
-    title Number of Solutions by Language
-    "C++" : 20
-    "Shell" : 3
-    "Python" : 7
-    "Haskell" : 3
-```
+- **Total problems:** 18,114  
+- **Solved:** 32  
+- **Unsolved:** 18,082  
+- **Progress:** 32 / 18,114 × 100 ≈ 0.18%
+
+<sub>see also: <code>./prog.sh</code> for summary</sub>
 
 ## Solution Status
 
 ```mermaid
 pie showData
-    title solved v unsolved
-    "Solved" : 32
-    "Unsolved" : 18082
+    "Solved" : 32 : #c2d368
+    "Unsolved" : 18082 : #b45252
 ```
 
-## Git Formatting:
+## Solution Languages used
+```mermaid
+pie showData
+    "C++" : 20 : #cf8acb
+    "Shell" : 3 : #8ab060
+    "Python" : 7 : #4b80ca
+    "Haskell" : 3 : #352b42 
+```
 
-each file problem uploaded, use the aliases eg "cf, cses, ..." further,\n
-there are chore if or init if adding a new file
+## Git Formatting
+
+- When adding a solution file, use platform aliases in commit messages:
+    - `cf` for Codeforces
+    - `cses` for CSES
+    - `pe` for Project Euler
+    - `lc` for LeetCode
+    - `timus` for Timus
+    - `dml` for Deep-ML
+    - `pwr` for Perl Weekly Review
+
+- **Commit Message Example:**
+    - Adding a new Codeforces solution:  
+      `cf: solution for problem 123A`
+
+- If you add a new file unrelated to problem solutions (e.g., scripts, configs), use the `chore` or `init` prefix:  
+    - `chore: add prog.sh for summary automation`
+    - `init: setup initial project structure`
 
 ## Redundancies:
 
