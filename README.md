@@ -2,21 +2,23 @@
 
 | Problem Name       | Directory                      |
 |--------------------|--------------------------------|
-| matrix-dot-prod    |deep-ml/                         |
+|                    |                                |
 ---
 
 ## AIM: 
 
-as of 11/10/2025;
+as of 14/10/2025;
 cf : 10800 + 553
 cses : 362
-pe : 953
-lc : 3706+9
+pe : 954
+lc : 3716
 timus : 1199
+dl : 187
+pwr : 343
 
-sum = 17573;
+sum = 18114;
 - use prog.sh
-progress = 23 / 17573 * 100 <=> 0.130 %
+progress = 32 / 18114 × 100 ≈ 0.1766589378 %
 
 ## Git Formatting:
 
