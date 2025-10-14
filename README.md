@@ -34,17 +34,18 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 
 ```mermaid
 pie showData
-    "Solved" : 32 : #c2d368
-    "Unsolved" : 18082 : #b45252
+    "Solved" : 32
+    "Unsolved" : 18082
 ```
 
 ## Solution Languages used
+
 ```mermaid
 pie showData
-    "C++" : 20 : #cf8acb
-    "Shell" : 3 : #8ab060
-    "Python" : 7 : #4b80ca
-    "Haskell" : 3 : #352b42 
+    "C++" : 20
+    "Shell" : 3
+    "Python" : 7
+    "Haskell" : 3
 ```
 
 ## Git Formatting
