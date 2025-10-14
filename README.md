@@ -1,4 +1,8 @@
-# TODO:
+# problem-sets
+
+My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, Project Euler, Perl Weekly Review.
+
+## TODO:
 
 | Problem Name       | Directory                      |
 |--------------------|--------------------------------|
@@ -19,6 +23,24 @@ pwr : 343
 sum = 18114;
 - use prog.sh
 progress = 32 / 18114 × 100 ≈ 0.1766589378 %
+
+```mermaid
+pie showData
+    title Number of Solutions by Language
+    "C++" : 20
+    "Shell" : 3
+    "Python" : 7
+    "Haskell" : 3
+```
+
+## Solution Status
+
+```mermaid
+pie showData
+    title solved v unsolved
+    "Solved" : 32
+    "Unsolved" : 18082
+```
 
 ## Git Formatting:
 
