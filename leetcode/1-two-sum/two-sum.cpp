@@ -1,12 +1,4 @@
-/*
-Runtime
-35ms
-Beats39.16%
-Analyze Complexity
-Memory
-13.88MB
-Beats99.53%
-*/
+// Runtime 35ms Beats 39.16% Memory 13.88MB Beats 99.53%
 #include <vector>
 using namespace std;
 class Solution {

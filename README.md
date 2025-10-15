@@ -27,7 +27,7 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 - **Total problems:** 60686 
 - **Solved:** 34
 - **Unsolved:** 60652
-- **Progress:** 34 / 60686) × 100 ≈ 0.0577 %
+- **Progress:** 43 / 60686 × 100 ≈ 0.0676 %
 
 <sub>see also: <code>./prog.sh</code> for summary</sub>
 
@@ -35,8 +35,8 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 
 ```mermaid
 pie showData
-    "Solved" : 34
-    "Unsolved" : 60652
+    "Solved" : 43
+    "Unsolved" : 60643
 ```
 
 ## Solution Languages used
@@ -59,7 +59,7 @@ pie showData
     - `timus` for Timus
     - `dml` for Deep-ML
     - `pwr` for Perl Weekly Review
-
+    - `spoj` for Sphere Online Judge
 - **Commit Message Example:**
     - Adding a new Codeforces solution:  
       `cf: solution for problem 123A`
