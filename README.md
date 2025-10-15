@@ -23,11 +23,11 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 | Deep-ML       | 187       |
 | Perl Weekly Review | 343  |
 | SPOJ          | 42573     |
-| CodeChef      | tbd       |
-- **Total problems:** 60687 
-- **Solved:** 34
-- **Unsolved:** 60652
-- **Progress:** 43 / 60686 × 100 ≈ 0.0676 %
+| CodeChef      | 5033       |
+- **Total problems:** 65720
+- **Solved:** 52
+- **Unsolved:** 65668
+- **Progress:** 52 / 65720) × 100 ≈ 0.0791 %
 
 <sub>see also: <code>./prog.sh</code> for summary</sub>
 
@@ -35,8 +35,8 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 
 ```mermaid
 pie showData
-    "Solved" : 43
-    "Unsolved" : 60643
+    "Solved" : 52
+    "Unsolved" : 65668
 ```
 
 ## Solution Languages used
