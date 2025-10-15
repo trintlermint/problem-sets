@@ -18,13 +18,13 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 | Codeforces    | 11,353-1  |
 | CSES          | 362       |
 | Project Euler | 954       |
-| LeetCode      | 3,716     |
+| LeetCode      | 3,716+1     |
 | Timus         | 1,199     |
 | Deep-ML       | 187       |
 | Perl Weekly Review | 343  |
 | SPOJ          | 42573     |
-
-- **Total problems:** 60686 
+| CodeChef      | tbd       |
+- **Total problems:** 60687 
 - **Solved:** 34
 - **Unsolved:** 60652
 - **Progress:** 43 / 60686 × 100 ≈ 0.0676 %
@@ -60,6 +60,7 @@ pie showData
     - `dml` for Deep-ML
     - `pwr` for Perl Weekly Review
     - `spoj` for Sphere Online Judge
+    - `cc` for codechef
 - **Commit Message Example:**
     - Adding a new Codeforces solution:  
       `cf: solution for problem 123A`
