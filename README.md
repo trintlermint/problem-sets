@@ -6,7 +6,8 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 
 | Problem Name       | Directory                      |
 |--------------------|--------------------------------|
-|  boryas diagnosis  | cf/main/879/a                  |
+| boryas diagnosis  | cf/main/879/a                  |
+| the next palindrome | cc/5
 ---
 
 ## AIM
