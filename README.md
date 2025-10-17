@@ -8,7 +8,7 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 |--------------------|--------------------------------|
 | boryas diagnosis  | cf/main/879/a                  |
 | the next palindrome | cc/5 |
-| like the bitset | cf/main/2136/b
+| like the bitset | cf/main/2136/b |
 ---
 
 ## AIM
@@ -26,10 +26,11 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 | Perl Weekly Review | 343  |
 | SPOJ          | 42573     |
 | CodeChef      | 5033       |
+| Kattis | TBD |
 - **Total problems:** 65720
 - **Solved:** 52
 - **Unsolved:** 65668
-- **Progress:** 52 / 65720) × 100 ≈ 0.0791 %
+- **Progress:** 52 / 65720 × 100 ≈ 0.0791 %
 
 <sub>see also: <code>./prog.sh</code> for summary</sub>
 
@@ -45,10 +46,11 @@ pie showData
 
 ```mermaid
 pie showData
-    "C++" : 21
-    "Shell" : 3
+    "C++" : 47
+    "Shell" : 4
     "Python" : 7
     "Haskell" : 3
+    "Perl" : 1
 ```
 
 ## Git Formatting
@@ -63,6 +65,7 @@ pie showData
     - `pwr` for Perl Weekly Review
     - `spoj` for Sphere Online Judge
     - `cc` for codechef
+    - `kat` for kattis
 - **Commit Message Example:**
     - Adding a new Codeforces solution:  
       `cf: solution for problem 123A`
