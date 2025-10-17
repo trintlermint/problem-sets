@@ -1,3 +1,4 @@
+// #344089103 	Oct/16/2025 21:48UTC+2 	trintler 	A - Nearly Lucky Number 	C++23 (GCC 14-64, msys2) 	Accepted 	124 ms 	0 KB
 #include <iostream>
 
 using namespace std;

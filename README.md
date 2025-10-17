@@ -1,13 +1,14 @@
 # problem-sets
 
-My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, Project Euler, Perl Weekly Review.
+My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, Project Euler, Perl Weekly Review. These solutions are not the most practical or efficient, I have written each submimission and their runtime & memory usage within the respective content judge. This is a learning experience of mine.
 
 ## TODO:
 
 | Problem Name       | Directory                      |
 |--------------------|--------------------------------|
 | boryas diagnosis  | cf/main/879/a                  |
-| the next palindrome | cc/5
+| the next palindrome | cc/5 |
+| like the bitset | cf/main/2136/b
 ---
 
 ## AIM
