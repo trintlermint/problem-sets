@@ -74,6 +74,18 @@ pie showData
     - `chore: add prog.sh for summary automation`
     - `init: setup initial project structure`
 
+## Milestones:
+
+0.1 % - 18/08 ?
+0.5 %
+1 %
+5 %
+10 %
+15 %
+20 %
+...
+100 %
+
 ## Redundancies:
 
 | Problem Name | Presence In                                 | Directory |
