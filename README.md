@@ -66,6 +66,12 @@ pie showData
     - `spoj` for Sphere Online Judge
     - `cc` for codechef
     - `kat` for kattis
+    - `az` for aizu
+    - `hr` for hackerrank
+    - `hdu` for hdu
+    - `kn` for kilonova
+    - `loj` for libreoj
+
 - **Commit Message Example:**
     - Adding a new Codeforces solution:  
       `cf: solution for problem 123A`
@@ -86,10 +92,18 @@ pie showData
 ...
 100 %
 
+## Websites:
+
+az : onlinejudge.u-aizu.ac.jp
+cf : codeforces.com
+hdu : acm.hdu.edu.cn
+kilonova : kilonova.ro
+libreoj : loj.ac
+
 ## Redundancies:
 
 | Problem Name | Presence In                                 | Directory |
 |--------------|---------------------------------------------|-----------|
-| aplusb       | Codeforces (ACMSGURU), Timus                | Timus     |
+| aplusb       | Codeforces (ACMSGURU), Timus, Kilonova, LibreOJ      | Timus     |
 ---
 
