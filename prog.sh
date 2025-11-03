@@ -12,6 +12,6 @@ done | wc -l)
 
 # use qalc locally for percentage
 # -2 for acmsguru (since no code yet) & problem 0 in proj euler
-result=$(echo "($count-2)/65720*100" | qalc)
+result=$(echo "($count-1)/65720*100" | qalc)
 
 echo "$result"
