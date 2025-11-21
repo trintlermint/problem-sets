@@ -18,7 +18,7 @@ void solve()
 		if (j < n) {
 			dp[i] += dp[j];
 		}
-  	}
+	}
 	cout << *max_element(dp.begin(), dp.end()) << endl;
 }
 

@@ -17,11 +17,7 @@ int main() {
         current = current + a[current];
     }
     
-    if (current == t) {
-        cout << "YES\n";
-    } else {
-        cout << "NO\n";
-    }
+    current==t ? cout << "YES\n" : cout << "NO\n";
     
     return 0;
 }
