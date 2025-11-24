@@ -1,3 +1,4 @@
+// #350083748 	Nov/21/2025 15:54UTC+1 	trintler 	115A - Party 	C++23 (GCC 14-64, msys2) 	Accepted 	184 ms 	0 KB 
 #include <iostream>
 #include <vector>
 using namespace std;

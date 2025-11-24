@@ -1,3 +1,4 @@
+// #350004263 	Nov/21/2025 01:21UTC+1 	trintler 	1944A - Destroying Bridges 	C++23 (GCC 14-64, msys2) 	Accepted 	46 ms 	0 KB 
 #include <iostream>
 using namespace std;
 

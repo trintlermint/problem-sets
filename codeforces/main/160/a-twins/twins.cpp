@@ -1,3 +1,4 @@
+// #348476672 	Nov/11/2025 14:24UTC+1 	trintler 	160A - Twins 	C++23 (GCC 14-64, msys2) 	Accepted 	122 ms 	0 KB
 #include <iostream>
 #include <vector>
 #include <algorithm>

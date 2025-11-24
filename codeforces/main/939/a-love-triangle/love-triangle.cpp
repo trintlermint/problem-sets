@@ -1,3 +1,4 @@
+// #350003762 	Nov/21/2025 01:05UTC+1 	trintler 	939A - Love Triangle 	C++23 (GCC 14-64, msys2) 	Accepted 	46 ms 	0 KB 
 #include <iostream>
 #include <vector>
 using namespace std;

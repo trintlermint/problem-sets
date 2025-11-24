@@ -12,4 +12,4 @@ all: $(EXECUTABLES)
 	$(CXX) $(CXXFLAGS) $< -o $@
 
 clean:
-	find . -type f ! -path "*/leetcode/*" -name '*.out' -exec rm -f {} +
+	rm -f $(EXECUTABLES)

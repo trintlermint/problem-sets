@@ -1,6 +1,6 @@
+// #350084564 	Nov/21/2025 16:00UTC+1 	trintler 	948A - Protect Sheep 	C++23 (GCC 14-64, msys2) 	Accepted 	109 ms 	0 KB 
 #include <iostream>
 #include <vector>
-#include <queue>
 using namespace std;
 
 int main() {

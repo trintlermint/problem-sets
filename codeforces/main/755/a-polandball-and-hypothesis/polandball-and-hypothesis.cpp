@@ -1,3 +1,4 @@
+// #350083507 	Nov/21/2025 15:52UTC+1 	trintler 	755A - PolandBall and Hypothesis 	C++23 (GCC 14-64, msys2) 	Accepted 	62 ms 	0 KB 
 #include <iostream>
 using namespace std;
 

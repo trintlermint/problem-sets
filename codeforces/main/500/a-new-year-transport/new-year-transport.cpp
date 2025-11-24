@@ -1,3 +1,4 @@
+// #350084411 	Nov/21/2025 15:59UTC+1 	trintler 	500A - New Year Transportation 	C++23 (GCC 14-64, msys2) 	Accepted 	93 ms 	0 KB 
 #include <iostream>
 #include <vector>
 using namespace std;

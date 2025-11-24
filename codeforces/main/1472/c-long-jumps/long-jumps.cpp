@@ -1,3 +1,4 @@
+// #350089460 	Nov/21/2025 16:35UTC+1 	trintler 	1472C - Long Jumps 	C++23 (GCC 14-64, msys2) 	Accepted 	390 ms 	0 KB
 #include <bits/stdc++.h>
 using namespace std;
 
