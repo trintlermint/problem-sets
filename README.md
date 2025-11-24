@@ -27,10 +27,9 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 | SPOJ          | 42573     |
 | CodeChef      | 5033       |
 | Kattis | TBD |
-- **Total problems:** 65720
-- **Solved:** 52
-- **Unsolved:** 65668
-- **Progress:** 52 / 65720 × 100 ≈ 0.0791 %
+- **Total problems:** 65720 + more...
+- **Solved:** 223
+- **Progress:** ((224 − 1) / 65720) × 100 ≈ 0.3393183201%
 
 <sub>see also: <code>./prog.sh</code> for summary</sub>
 
@@ -38,8 +37,8 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 
 ```mermaid
 pie showData
-    "Solved" : 52
-    "Unsolved" : 65668
+    "Solved" : 223
+    "Unsolved" : 65497
 ```
 
 ## Solution Languages used
