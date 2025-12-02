@@ -1,3 +1,4 @@
+// #351403068 	Dec/01/2025 01:55UTC+1 	trintler 	1328A - Divisibility Problem 	C++23 (GCC 14-64, msys2) 	Accepted 	31 ms 	0 KB
 #include <bits/stdc++.h>
 using namespace std;
 

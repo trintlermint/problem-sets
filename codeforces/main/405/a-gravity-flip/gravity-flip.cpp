@@ -1,6 +1,5 @@
-#include <algorithm>
+// #351403720 	Dec/01/2025 02:20UTC+1 	trintler 	405A - Gravity Flip 	C++23 (GCC 14-64, msys2) 	Accepted 	62 ms 	100 KB
 #include <bits/stdc++.h>
-#include <vector>
 
 using namespace std;
 
