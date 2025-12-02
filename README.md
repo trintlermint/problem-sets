@@ -28,8 +28,8 @@ My answers to the problem sets for CSES, timus, CodeForces, LeetCode, Deep-ML, P
 | CodeChef      | 5033       |
 | Kattis | TBD |
 - **Total problems:** 65720 + more...
-- **Solved:** 223
-- **Progress:** ((224 − 1) / 65720) × 100 ≈ 0.3393183201%
+- **Solved:** 227
+- **Progress:** ((228 − 1) / 65720) × 100 ≈ 0.3454047474
 
 <sub>see also: <code>./prog.sh</code> for summary</sub>
 
