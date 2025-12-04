@@ -37,7 +37,6 @@ int main() {
             int col = s[i + 1] - '0';
 
             int index = (row - 1) * 5 + (col - 1);
-#
             result += t[index];
         }
         
