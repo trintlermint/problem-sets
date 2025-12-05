@@ -8,10 +8,9 @@ int main() {
         if (number % divisor == 0) {
             number /= divisor;
         } else {
-            divisor++;
+            ++divisor;
         }
     }
-    // divisor is the largest prime factor
     cout << divisor << '\n';
     return 0;
 }
