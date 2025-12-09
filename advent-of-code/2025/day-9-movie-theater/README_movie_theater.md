@@ -1,93 +1,19 @@
-so, firstly, we take each input and  
-<details>
-<summary>evaluate it as a tuple (x,y)</summary>
+Firstly, we take each input and evaluate it as a tuple (x, y) by doing `p=*map(eval,open(0))`.  
+Here, `p` is the list of red-tile coordinates in the given order, forming the closed path.
 
-by doing <b>p=*map(eval,open(0))</b>
-</details>
-p here is the  
-<details>
-<summary>list of red-tile coords in the given order, forming the closed path</summary>
-</details>
+To build up the polygon, initially we set up the edges by calling `zip(p, p[1:] + p)`, pairing each point with its successor and wrapping around to form the initial edges.
 
-next, we can  
-<details>
-<summary>build up a polygon</summary>
-</details>
-, to do this initially we setup the  
-<details>
-<summary>edges</summary>
-</details>
-, to do this i basically first called  
-<details>
-<summary>zip(p, p[1:] + p)</summary>
-</details>
-for  
-<details>
-<summary>pairing each point with its next successor, and wrapping around to give the initial edges.</summary>
-</details>
-Next, for any edge  
-<details>
-<summary>(( x_1, y_1), (x_2), y_2))</summary>
-</details>
-and the  
-<details>
-<summary> zip(*x)</summary>
-</details>
-we map it to  
-<details>
-<summary>[(x_1, x_2), (y_1, y_2)]</summary>
-</details>
-then to make a  
-<details>
-<summary>greedy</summary>
-</details>
-construction we  
-<details>
-<summary>sort each pair</summary>
-</details>
-so that we get  
-<details>
-<summary>[[xmin, xmax],[ymin, ymax]]</summary>
-</details>
-by calling  
-<details>
-<summary>map(S:=sorted, zip(*x))</summary>
-</details>
-(in my code)  
-then this makes our  
-<details>
-<summary> list of the axis-aligned edges</summary>
-</details>
-which are  
-<details>
-<summary>each either horizontal/vertical with the sorted coordinate ranges</summary>
-</details>
-lets say this  
-<details>
-<summary>list is `s`.</summary>
-</details>
+For any edge `((x₁, y₁), (x₂, y₂))`, `zip(*x)` maps it to `[(x₁, x₂), (y₁, y₂)]`.  
+To make a greedy construction, we sort each pair so that we obtain `[[xmin, xmax], [ymin, ymax]]` by calling `map(S:=sorted, zip(*x))` in the code.  
+This produces a list of axis-aligned edges, each either horizontal or vertical with sorted coordinate ranges.  
+Let this list be denoted as `s`.
 
-then i did codegolfing, to compute inclusive rectangle area one can consider  
-<details>
-<summary> `python: ~k = -(k+1)`</summary>
-</details>
-meaning that  
-<details>
-<summary>for a span d = R -  Q, ~d = -(d+1); multiplying two `~`values leads to the inclusive `len+1` product: `(~(R-Q))*(~(J-I)) = (R-Q+1)*(J-I+1)` when `J >= I, R >= Q` (sign flip cancel)</summary>
-</details>
+To compute the inclusive rectangle area, consider the operation `~k = -(k+1)`.  
+For a span `d = R - Q`, `~d = -(d+1)`.  
+Multiplying two such values provides the inclusive `(length + 1)` product: `(~(R-Q))*(~(J-I)) = (R-Q+1)*(J-I+1)`, assuming `J >= I, R >= Q`.  
+This takes care of the closed interval requirement.
 
-but anyway, we then form an  
-<details>
-<summary>outer loop</summary>
-</details>
-over the  
-<details>
-<summary>pairs of the red corners</summary>
-</details>
-, so lets say for my below code: 
-
-<details>
-<summary>
+Now, we form an outer loop over pairs of the red corners, so in the code:
 
 ```py
 x = y = 0
@@ -97,33 +23,12 @@ for I, q in p:          # corner 1: (I, q)
     A = ~(R - Q) * ~(J - I)  # inclusive area between the two corners
     x = M(x, A)         # part 1 candidate
 ```
-</summary>
-</details>
 
-<details>
-<summary>(I, q) and (J,r) are two red tiles chosen as opposite rectangle corners</summary>
-</details>
-,
-<details>
-<summary>A is the rectagle area with the inclusive coordinates</summary>
-</details>
-<details>
-<summary> x is keeping track of the maximum area overall all the pairs, which solves part 1 (largest rectangle using any two red tiles as opposite corners, with no restrictions in the interior)</summary>
-</details>
+Here, `(I, q)` and `(J, r)` are two red tiles chosen as opposite rectangle corners.  
+`A` is the rectangle area with the inclusive coordinates.  
+`x` keeps track of the maximum area over all the pairs, which solves part 1 (largest rectangle using any two red tiles as opposite corners).
 
-
-then with this, we can put some more code to make a  
-<details>
-<summary>validity check</summary>
-</details>
-like the soyboys we are, inside the  
-<details>
-<summary>red/green region</summary>
-</details>
-by doing:
-
-<details>
-<summary>
+For region validity checking:
 
 ```py
     y = M(y, all(
@@ -131,60 +36,19 @@ by doing:
       for (a, b), (c, d) in s
     ) * A)
 ```
-</summary>
-</details>
-here we see that for each  
-<details>
-<summary>polygon edge</summary>
-</details>
-with  
-<details>
-<summary>x-range [a,b] and y range [c,d]</summary>
-</details>
-that:
 
-<details>
-<summary>
-- `~M(~b, -J) < M(a, I+1)` is equivalent to saying the edge’s xrange and the rectangle’s x-range are disjoint after an open/closed offset
-then,
-</summary>
-</details>
-<details>
-<summary>
-- after simplifying `~M(~b, -J) = min(b+1, J) - 1 and M(a, I+1) = max(a, I+1)`.
-</summary>
-</details>
-and
-<details>
-<summary> `~M(~d, -R) < M(c, Q+1)` analogously checks disjointness in y.</summary>
-</details>
+For each polygon edge with x-range `[a, b]` and y-range `[c, d]`:
+- `~M(~b, -J) < M(a, I+1)` states that the edge's x-range and the rectangle's x-range are disjoint after an open/closed offset.
+- After simplifying: `~M(~b, -J) = min(b+1, J) - 1`, and `M(a, I+1) = max(a, I+1)`.
+- `~M(~d, -R) < M(c, Q+1)` checks disjointness in y.
+- Therefore, `(~M(~b, -J) < M(a, I+1)) or (~M(~d, -R) < M(c, Q+1))` means the edge does not intersect the open interior of the candidate rectangle.
 
-from this we extrapolate that:
+`all(...)` requires this condition to be true for every edge of the polygon, so the rectangle lies fully inside (or on the boundary of) the region bounded by the path.
 
-<details>
-<summary>
-`(~M(~b, -J) < M(a, I+1)) or (~M(~d, -R) < M(c, Q+1))` describes the edge doesnt intresect w the open interior of the candidate rectangle (its seperated in x or in y)
-</summary>
-</details>
+If the rectangle is valid (i.e., `all(...)` holds for all edges), it contributes `A` to the maximum; otherwise, it contributes `0`.  
+`y` tracks the largest valid area.
 
-with  
-<details>
-<summary>`all(...)` makes this be a requiremnt for every edge of the polygon, so the rectangle lies fully inside (or boundary) of the red/green/ region bounded by the path)</summary>
-</details>
-
-if the  
-<details>
-<summary>rectangle is valid(all(...) holds)</summary>
-</details>
-then =>  
-<details>
-<summary>it contributes A to the max, otherwise it contributes 0.</summary>
-</details>
-<details>
-<summary>y tracks the largest valid area which solves</summary>
-</details>
-
-# Code:
+## Code
 
 ```py
 p=*map(eval,open(0)),
@@ -194,4 +58,4 @@ x=y=0
 for I,q in p:
  for J,r in p:Q,R=S([q,r]);x=M(x,A:=~(R-Q)*~(J-I));y=M(y,all(~M(~b,-J)<M(a,I+1)or~M(~d,-R)<M(c,Q+1)for(a,b),(c,d)in s)*A)
 print(x,y)
-``` 
+```
