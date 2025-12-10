@@ -85,15 +85,7 @@ pie showData
     - `lc` for LeetCode
     - `timus` for Timus
     - `dml` for Deep-ML
-    - `pwr` for Perl Weekly Review
-    - `spoj` for Sphere Online Judge
-    - `cc` for codechef
-    - `kat` for kattis
-    - `az` for aizu
-    - `hr` for hackerrank
-    - `hdu` for hdu
-    - `kn` for kilonova
-    - `loj` for libreoj
+    - ... as specified in below websites
 
 - **Commit Message Example:**
     - Adding a new Codeforces solution:  
@@ -105,33 +97,33 @@ pie showData
 
 ## Websites mentioned
 
-My answers to the problem sets for these websites/judges (with my original language, just better formatted):
+These are the lists of websites I am willing to contribute solutions to, along with their shorthand git aliases which I construct when I make a commit.
 
-- [Advent of Code](https://adventofcode.com)
-- [Aizu](https://onlinejudge.u-aizu.ac.jp)
-- [CodeChef](https://www.codechef.com/practice)
-- [Codeforces](https://codeforces.com/problemset)
-- [CodeGolf](https://code.golf)
-- [CSES](https://cses.fi/problemset)
-- [Deep-ML](https://www.deep-ml.com/problems)
-- [DM::OJ](https://dmoj.ca/problems)
-- [Eolymp](https://eolymp.com/en/problems)
-- [HackerRank](https://www.hackerrank.com)
-- [Jane Street](https://www.janestreet.com/puzzles)
-- [Kattis](https://open.kattis.com/problems)
-- [Kilonova](https://kilonova.ro/problems)
-- [LeetCode](https://leetcode.com/problemset)
-- [LibreOJ](https://loj.ac/p)
-- [LightOJ](https://lightoj.com/problems/category)
-- [oj.uz](https://oj.uz/problems)
-- [Perl The Weekly Challenge](https://theweeklychallenge.org/challenges)
-- [Project Euler](https://projecteuler.net/archives)
-- [QOJ.ac](https://qoj.ac/problems)
-- [SphereOJ](https://www.spoj.com/problems/classical)
-- [Timus](https://acm.timus.ru/problemset.aspx)
-- [TLX](https://tlx.toki.id/problems)
-- [Toph](https://toph.co/problems)
-- [yosupo](https://judge.yosupo.jp)
+- `aoc` :: [Advent of Code](https://adventofcode.com)
+- `aiz` :: [Aizu](https://onlinejudge.u-aizu.ac.jp)
+- `cc`  :: [CodeChef](https://www.codechef.com/practice)
+- `cf`  :: [Codeforces](https://codeforces.com/problemset)
+- `cg`  :: [CodeGolf](https://code.golf)
+- `cses`:: [CSES](https://cses.fi/problemset)
+- `dml` :: [Deep-ML](https://www.deep-ml.com/problems)
+- `dmoj`:: [DM::OJ](https://dmoj.ca/problems)
+- `eol` :: [Eolymp](https://eolymp.com/en/problems)
+- `hr`  :: [HackerRank](https://www.hackerrank.com)
+- `js`  :: [Jane Street](https://www.janestreet.com/puzzles)
+- `kat` :: [Kattis](https://open.kattis.com/problems)
+- `kn`  :: [Kilonova](https://kilonova.ro/problems)
+- `lc`  :: [LeetCode](https://leetcode.com/problemset)
+- `lboj`:: [LibreOJ](https://loj.ac/p)
+- `lioj`:: [LightOJ](https://lightoj.com/problems/category)
+- `oj`  :: [oj.uz](https://oj.uz/problems)
+- `pwc` :: [Perl The Weekly Challenge](https://theweeklychallenge.org/challenges)
+- `pe`  :: [Project Euler](https://projecteuler.net/archives)
+- `qoj` :: [QOJ.ac](https://qoj.ac/problems)
+- `spoj`:: [SphereOJ](https://www.spoj.com/problems/classical)
+- `tim` :: [Timus](https://acm.timus.ru/problemset.aspx)
+- `tlx` :: [TLX](https://tlx.toki.id/problems)
+- `toph`:: [Toph](https://toph.co/problems)
+- `yos` :: [yosupo](https://judge.yosupo.jp)
 
 ## Milestones:
 
@@ -144,14 +136,6 @@ My answers to the problem sets for these websites/judges (with my original langu
 20 %  
 ...  
 100 %
-
-## Websites (aliases quick view):
-
-az : onlinejudge.u-aizu.ac.jp  
-cf : codeforces.com  
-hdu : acm.hdu.edu.cn  
-kilonova : kilonova.ro  
-libreoj : loj.ac
 
 ## Redundancies:
 
