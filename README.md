@@ -1,58 +1,83 @@
 # problem-sets
 
-My answers to the problem sets for Aizu, AdventofCode, CodeChef, Codeforces, Codegolf, CSES, Deep-ML, DMOJ, EOlymp, HackerRank, Kattis, KiloNova, Leetcode, LibreOJ, Perl Weekly Review, Project Euler, SPOJ and Timus judges. These solutions are not the most practical or efficient; I have written each submission and their runtime & memory usage within the respective content judge. This is a learning experience of mine, see below what judges are present in the repostiory. also please see issues for making a scraper! :)
+This repository contains my answers to problem sets from a wide range of judges, including **Aizu**, **Advent of Code**, **CodeChef**, **Codeforces**, **Codegolf**, **CSES**, **Deep-ML**, **DMOJ**, **EOlymp**, **HackerRank**, **Kattis**, **KiloNova**, **Leetcode**, **LibreOJ**, **Perl Weekly Review**, **Project Euler**, **SPOJ**, **Timus**, and more.
 
-## Coverage at a glance
+> **Note:** These solutions are intended as a learning experience rather than optimal references. Most were written directly to the relevant online judges.
 
-- **This repository covers problem sets from 26 websites/judges.**
-- **Total problems:** 65720 + more...TBD
+See below for the current coverage and progress, and refer to [issues](https://github.com/trintlermint/problem-sets/issues) for open tasks (like building a scraper).
+
+---
+
+## Coverage at a Glance
+
+- **Websites/judges covered:** 25
+- **Total problems tracked:** 65,720 (and growing)
 - **Solved:** 227
-- **Progress:** ((228 − 1) / 65720) × 100 ≈ 0.3454047474
+- **Progress:** ≈ 0.35% &nbsp; _(calculated as (227 / 65,720) × 100)_
 
-<sub>see also: <code>./prog.sh</code> for summary</sub>
+<sub>See also: <code>./prog.sh</code> for a summary script.</sub>
 
-## Community notes
+---
 
-**[Discord Server (WIP)](https://discord.gg/sv7ku23K7y)** I will be coordinating weekly contests, share editorials, compare runtimes/memory, and track personal progress, this will be for enjoying together, furthermore I want to make a /videos/ repository where I upload videos on youtube + more.. about problems and solving them.
-- **channels (TBD)**
-  - `#announcements` — contest schedule, links, and judge picks for the week.
-  - `#check-in` — who is participating this week; start/finish pings.
-  - `#help` — hints only (no full spoilers during live windows).
-  - `#systems` — tooling, IDE setups, scripts (e.g., `prog.sh`) and benchmarks.
-- **Weekly cadence:**
-  - Post schedule every Sunday; run at least one multi-judge set midweek and one weekend set. (when my uni gets bit less workload)
-  - Rotate judges so coverage stays broad if thats what people want (Codeforces/CSES/LeetCode/Timus/Project Euler/etc.).
-- **Participation workflow (TBD):**
-  1) Check `#announcements` for the week’s picks.  
-  2) During the window, work locally; note runtimes/memory on judge submissions.  
-  3) After lock, share solutions + short commentary in `#solutions`; add editorials in `#editorials`.  
-  4) Log issues/blocks in `#help`; capture tooling notes in `#systems`.
-- **Bot**
-    I am very inclined and open to recieving recommendations as to how to make a bot to be able to read submissions and have them, we also have a channel for advent of code golfing using the [aoc golf bot](https://github.com/Starwort/advent-of-code-golf-2025)
-
-
-<div align="center">
 ## Milestones
-<img src=resources/advent-of-code-fin.png width="20%"/>
-Advent of code 2025 solved!
+<div align="center">
+
+<img src="advent-of-code/2025/advent-of-code-fin.png" width="20%" alt="Advent of Code Finished"/>
+  
+**Advent of Code 2025 solved!**
+
 </div>
 
-## Stats
+---
 
-**As of 14/10/2025:**
+## TODO
 
-| Platform            | Solutions |
-|---------------------|-----------|
-| Codeforces          | 11,353-1  |
-| CSES                | 362       |
-| Project Euler       | 954       |
-| LeetCode            | 3,716+1   |
-| Timus               | 1,199     |
-| Deep-ML             | 187       |
-| Perl Weekly Review  | 343       |
-| SPOJ                | 42573     |
-| CodeChef            | 5033      |
-| Kattis              | TBD       |
+| Problem Name          | Directory         |
+|-----------------------|------------------|
+| Borya's Diagnosis     | `cf/main/879/a`  |
+| The Next Palindrome   | `cc/5`           |
+| Like the Bitset       | `cf/main/2136/b` |
+
+---
+
+## Community Notes
+
+**[Join our Discord server (Work in Progress)](https://discord.gg/sv7ku23K7y):**  
+Weekly contests, editorials, code/runtime comparisons, and personal progress tracking. Plans include a `/videos/` section for walkthroughs and more.
+
+**Discord Channels (planned):**
+- `#announcements` — Contest schedules, links, and judge picks.
+- `#help` — Hints (no spoilers during contests).
+- `#systems` — Tooling, IDE setup, scripts (e.g., `prog.sh`), and benchmarks.
+- + `more. . .` - :)
+
+**Weekly Contest Schedule:**
+- New schedule every Sunday.
+- At least one multi-judge set midweek and one on weekends.
+- Rotating judge sources for diverse coverage. (Subject to university workload.)
+
+**Participation Workflow (planned):**
+1. Check `#announcements` for the week's picks.
+2. Work locally during competition windows.
+3. After lock, share solutions and editorials.
+4. Discuss blocks in `#help` and note tooling in `#systems`.
+
+**Bot Development:**  
+Open to recommendations for a submissions bot! See [aoc golf bot](https://github.com/Starwort/advent-of-code-golf-2025) for inspiration. Suggest ideas in Discord.
+
+---
+
+## Aim & Current Stats
+
+**As of 2025-10-14**
+
+| Platform         | Solutions   |
+|------------------|------------|
+| Codeforces       | 11,352      |
+| CSES             | 362         |
+| Project Euler    | 954         |
+| ...              | ...         |
+
 
 ## Solution Status
 
@@ -79,19 +104,16 @@ pie showData
 - When adding a solution file, use platform aliases in commit messages:
     - `cf` for Codeforces
     - `cses` for CSES
-    - `pe` for Project Euler
-    - `lc` for LeetCode
-    - `timus` for Timus
-    - `dml` for Deep-ML
     - ... as specified in below websites
 
 - **Commit Message Example:**
     - Adding a new Codeforces solution:  
       `cf: solution for problem 123A`
 
-- If you add a new file unrelated to problem solutions (e.g., scripts, configs), use the `chore` or `init` prefix:  
+- If you add a new file unrelated to problem solutions (e.g., scripts, configs), use the `chore` or `init` or others as general conventions as prefixes:  
     - `chore: add prog.sh for summary automation`
     - `init: setup initial project structure`
+    - `refactor: change the repository without changing program code`
 
 ## Websites mentioned
 
@@ -128,4 +150,7 @@ These are the lists of websites I am willing to contribute solutions to, along w
 | Problem Name | Presence In                                  | Directory |
 |--------------|----------------------------------------------|-----------|
 | aplusb       | Codeforces (ACMSGURU), Timus, Kilonova, LibreOJ | Timus     |
+
 ---
+
+Feel free to open issues for suggestions, improvements, or questions! - trintler
