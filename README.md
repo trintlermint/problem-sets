@@ -1,24 +1,15 @@
 # problem-sets
 
-My answers to the problem sets for Aizu, AdventofCode, CodeChef, Codeforces, Codegolf, CSES, Deep-ML, DMOJ, EOlymp, HackerRank, Kattis, KiloNova, Leetcode, LibreOJ, Perl Weekly Review, Project Euler, SPOJ and Timus judges — and more. These solutions are not the most practical or efficient; I have written each submission and their runtime & memory usage within the respective content judge. This is a learning experience of mine, see below what judges are present in the repostiory. also please see issues for making a scraper! :)
+My answers to the problem sets for Aizu, AdventofCode, CodeChef, Codeforces, Codegolf, CSES, Deep-ML, DMOJ, EOlymp, HackerRank, Kattis, KiloNova, Leetcode, LibreOJ, Perl Weekly Review, Project Euler, SPOJ and Timus judges. These solutions are not the most practical or efficient; I have written each submission and their runtime & memory usage within the respective content judge. This is a learning experience of mine, see below what judges are present in the repostiory. also please see issues for making a scraper! :)
 
 ## Coverage at a glance
 
-- **This repository covers problem sets from 25 websites/judges.**
+- **This repository covers problem sets from 26 websites/judges.**
 - **Total problems:** 65720 + more...TBD
 - **Solved:** 227
 - **Progress:** ((228 − 1) / 65720) × 100 ≈ 0.3454047474
 
 <sub>see also: <code>./prog.sh</code> for summary</sub>
-
-## TODO:
-
-| Problem Name         | Directory           |
-|----------------------|---------------------|
-| boryas diagnosis     | cf/main/879/a       |
-| the next palindrome  | cc/5                |
-| like the bitset      | cf/main/2136/b      |
----
 
 ## Community notes
 
@@ -39,7 +30,14 @@ My answers to the problem sets for Aizu, AdventofCode, CodeChef, Codeforces, Cod
 - **Bot**
     I am very inclined and open to recieving recommendations as to how to make a bot to be able to read submissions and have them, we also have a channel for advent of code golfing using the [aoc golf bot](https://github.com/Starwort/advent-of-code-golf-2025)
 
-## AIM
+
+<div align="center">
+## Milestones
+<img src=resources/advent-of-code-fin.png width="20%"/>
+Advent of code 2025 solved!
+</div>
+
+## Stats
 
 **As of 14/10/2025:**
 
@@ -124,18 +122,6 @@ These are the lists of websites I am willing to contribute solutions to, along w
 - `tlx` :: [TLX](https://tlx.toki.id/problems)
 - `toph`:: [Toph](https://toph.co/problems)
 - `yos` :: [yosupo](https://judge.yosupo.jp)
-
-## Milestones:
-
-0.1 % - 18/08 ?  
-0.5 %  
-1 %  
-5 %  
-10 %  
-15 %  
-20 %  
-...  
-100 %
 
 ## Redundancies:
 
