@@ -1,9 +1,6 @@
 # Day 10: Factory — Editorial
 
-## Problem recap
-
 Each input line describes one machine:
-
 - An indicator pattern in brackets `[...]` using `.` (off) and `#` (on).
 - A list of buttons in parentheses, each listing the zero-based indices it affects.
 - A joltage target vector in braces `{...}`.
@@ -17,14 +14,9 @@ Part 2 (joltage counters):
 - All counters start at zero.
 - Pressing a button adds 1 to each listed counter.
 - Find the minimum total presses to reach the exact target vector.
+We must sum the min() over all machines.
 
-We must sum the minimum over all machines.
-
-## Modeling both parts as ILP
-
-SciPy’s `optimize.milp` lets us solve small integer linear programs (ILPs) conveniently.
-
-### Common button matrix
+### set a matrix A:
 
 For a machine with `k` lights/counters and `m` buttons, build a matrix `A` of shape `(k, m)` where
 `A[i, j] = 1` if button `j` affects position `i`, else `0`.
@@ -32,17 +24,15 @@ Decision variables are press counts `x_j ≥ 0`, integers.
 
 ### Part 2 (additive counters)
 
-This is a straightforward integer system:
-
 ```
 A @ x = target
 minimize sum(x_j)
 x_j ≥ 0, integer
 ```
 
-### Part 1 (binary lights, modulo 2)
+### Part 1 (binary light mod 2)
 
-Toggling creates a modulo-2 constraint:
+toggling creates a mod-2 constraint:
 
 ```
 A @ x ≡ target (mod 2)
@@ -53,10 +43,9 @@ We linearize the modulo with slack integers `y_i ≥ 0`:
 ```
 A @ x - 2 * y = target
 ```
+Objective counts only button presses; slack has zero cost.
 
-Now it’s a normal equality over integers. Objective counts only button presses; slack has zero cost.
-
-## Algorithm
+## Impl
 
 For each line:
 
@@ -67,12 +56,6 @@ For each line:
 5. Part 2: solve the direct equality ILP.
 6. Accumulate both minima.
 
-Finally print `part_one_total part_two_total`.
-
-## Correctness sketch
-
 - Part 2: The ILP enforces `A x = target` exactly with non-negative integers; minimizing `sum(x)` yields the fewest presses.
 - Part 1: For any integer solution `(x, y)`, `A x = target + 2y` implies `A x ≡ target (mod 2)`, matching toggle parity. Conversely, any press vector achieving the target parity can pair with `y = (A x - target)/2` to satisfy the linear constraint. Objective ignores `y`, so the optimum matches the minimum valid press count. Summing per-machine optima gives the required totals.
-
-## Complexity
-Let `k` be lights/counters and `m` buttons per machine. The ILP has `m` variables (plus `k` slack for part 1) and `k` equalities. Typical inputs are small; HiGHS handles these quickly.
+Let `k` be lights/counters and `m` buttons per machine. The ILP has `m` variables (plus `k` slack for part 1) and `k` equalities.
