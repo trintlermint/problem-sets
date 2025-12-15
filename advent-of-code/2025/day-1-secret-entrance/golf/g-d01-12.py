@@ -1,3 +1,6 @@
-p=a=b=0
-for x in open(0):exec("p+=x>'M'or-1;y=p%100==50;b+=y;"*int(x[1:]));a+=y
-print(a,b)
+import sys;p,a,b=50,0,0
+for l in sys.stdin.read().strip().split('\n'):
+ d,n=l[0],int(l[1:])
+ for _ in range(n):p=(p+(-1if d=='L'else 1))%100;b+=p==0
+ a+=p==0
+print(a);print(b)

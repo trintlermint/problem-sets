@@ -1,0 +1,1 @@
+fun main(){var p=50;var a=0;var b=0;generateSequence(::readLine).forEach{val d=it[0];val n=it.substring(1).toInt();repeat(n){p=((p+if(d=='L')-1 else 1)+100)%100;if(p==0)b++};if(p==0)a++};println(a);println(b)}

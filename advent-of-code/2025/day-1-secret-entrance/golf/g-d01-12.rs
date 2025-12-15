@@ -1,0 +1,1 @@
+use std::io::{self,BufRead};fn main(){let mut p: i32=50;let(mut a,mut b)=(0,0);for l in io::stdin().lock().lines().flatten(){let d=l.chars().next().unwrap();let n:i32=l[1..].parse().unwrap();for _ in 0..n{p=(p+if d=='L'{-1}else{1}).rem_euclid(100);if p==0{b+=1}}if p==0{a+=1}}println!("{}\n{}",a,b)}
